@@ -1,5 +1,63 @@
-body {
-  background-color: black;
-  color: white;
+@import (less) "../node_modules/tachyons/css/tachyons.css";
+
+:root {
+  /* Background Colors*/
+  --nord-0: #2e3440;
+  --nord-1: #3b4252;
+  --nord-2: #434c5e;
+  --nord-3: #4c566a;
+  /* Text Colors */
+  --nord-4: #d8dee9;
+  --nord-5: #e5e9f0;
+  --nord-6: #eceff4;
+  /* Primary UI and Highlighting*/
+  --nord-7: #8fbcbb;
+  --nord-8: #88c0d0;
+  --nord-9: #81a1c1;
+  --nord-10: #5e81ac;
+  /* Special Elements */
+  --nord-11: #bf616a;
+  --nord-12: #d08770;
+  --nord-13: #ebcb8b;
+  --nord-14: #a3be8c;
+  --nord-15: #b48ead;
+  /* */
 }
 
+body {
+  background-color: var(--nord-0);
+  color: var(--nord-4);
+  font-family: IBM Plex Sans, sans-serif;
+}
+
+.hClass (@index) when (@index > 0) {
+  h@{index} {
+    font-family: raleway, sans-serif;
+  }
+  .hClass(@index - 1);
+}
+.hClass(6);
+
+.top-bar {
+  top: 0;
+  .w-100; .ph3; .pv3; .pl7; .pr7;
+  .nav-bar {
+    .f6; .fw6; .ttu; .tracked;
+    .nav-item {
+      font-family: Raleway;
+      color: var(--nord-6);
+      text-decoration: none;
+      .mr3; .dib; .f3;
+      &:hover { color: var(--nord-7) }
+    }
+    .nav-item:not(:first-child) {
+      .fr;
+    }
+  }
+}
+
+.container {
+  background: var(--nord-1);
+  .pa3; .flex;
+  .vh-75; .w-75; .center; .br3; .shadow-1;
+}
