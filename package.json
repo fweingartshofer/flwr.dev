@@ -1,0 +1,9 @@
+{
+  "name": "flwr.dev",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "repository": "https://github.com/flohero/flwr.dev.git",
+  "author": "Florian Weingartshofer",
+  "license": "CC-BY-4.0"
+}
