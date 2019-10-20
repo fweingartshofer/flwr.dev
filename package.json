@@ -5,5 +5,13 @@
   "main": "index.js",
   "repository": "https://github.com/flohero/flwr.dev.git",
   "author": "Florian Weingartshofer",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "build": "lessc styles/*.less dist/styles.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "less": "^3.10.3",
+    "tachyons": "^4.11.1"
+  }
 }
