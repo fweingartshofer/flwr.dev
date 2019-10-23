@@ -7,14 +7,21 @@
   "author": "Florian Weingartshofer",
   "license": "CC-BY-4.0",
   "scripts": {
-    "build:dev": "lessc styles/*.less dist/styles.css",
-    "build": "lessc -clean-css styles/*.less dist/styles.css"
+    "build:dev": "webpack --watch",
+    "build": "webpack",
+    "serve": "budo --live"
   },
   "dependencies": {},
   "devDependencies": {
+    "budo": "^11.6.3",
     "clean-css": "4.1.11",
+    "css-loader": "^3.2.0",
     "less": "^3.10.3",
+    "less-loader": "^5.0.0",
     "less-plugin-clean-css": "^1.5.1",
-    "tachyons": "^4.11.1"
+    "mini-css-extract-plugin": "^0.8.0",
+    "tachyons": "^4.11.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
   }
 }
