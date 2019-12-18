@@ -24,8 +24,8 @@
 }
 
 body {
-  background-color: var(--nord-0);
-  color: var(--nord-4);
+  background-color: var(--nord-5);
+  color: var(--nord-0);
   font-family: IBM Plex Sans, sans-serif;
 }
 
@@ -51,14 +51,14 @@ body {
 
     .nav-item {
       font-family: Raleway;
-      color: var(--nord-6);
+      color: var(--nord-2);
       text-decoration: none;
       .mr3;
       .dib;
       .f3;
 
       &:hover {
-        color: var(--nord-7);
+        color: var(--nord-9);
         transition: color 0.15s ease-in;
       }
     }
@@ -66,21 +66,25 @@ body {
 }
 
 .container {
-  background: var(--nord-1);
+  background: var(--nord-5);
   .pa3;
   .flex;
   .vh-75;
   .w-75;
   .center;
   .br3;
-  .shadow-1;
+  //.shadow-1;
   .flex-column;
 }
 
 .text-link {
-  color: var(--nord-7);
+  color: var(--nord-2);
   .no-underline;
   &:visited {
+    color: var(--nord-10);
+  }
+  &:hover {
     color: var(--nord-9);
+    transition: color 0.15s ease-in;
   }
 }
