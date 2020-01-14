@@ -2,9 +2,11 @@
     <nav>
         <ul>
             {{ range .Site.Menus.main }}
+            {{ if .Name }}
             <li>
                 <a href="{{ .URL }}">{{ .Name }}</a>
             </li>
+            {{ end }}
             {{ end }}
         </ul>
     </nav>
