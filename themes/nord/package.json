@@ -1,0 +1,22 @@
+{
+  "name": "flwr.dev",
+  "version": "1.0.0",
+  "description": "flwr.dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flohero/flwr.dev.git"
+  },
+  "author": "Florian Weingartshofer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flohero/flwr.dev/issues"
+  },
+  "homepage": "https://github.com/flohero/flwr.dev#readme",
+  "devDependencies": {
+    "sass": "^1.24.4"
+  }
+}

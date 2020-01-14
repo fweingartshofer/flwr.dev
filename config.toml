@@ -1,0 +1,13 @@
+baseURL = "http://flwr.dev/"
+languageCode = "en-us"
+title = "/HOME/FLWR.DEV"
+theme = "nord"
+DefaultContentLanguage = "en"
+
+[params]
+  author = "Florian Weingartshofer"
+  description = "flwr.dev 🐧🐧🐧"
+
+[languages]
+  [languages.en]
+    weight = 1

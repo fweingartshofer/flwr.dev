@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ with .GetPage "main.md" }}
+<h1>{{ .Title }}</h1>
+{{.Content}}
+{{ end }}
+{{ end }}

@@ -1,0 +1,11 @@
+<head>
+    <title> {{.Title}} </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <base href="/">
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ $sass := resources.Get "sass/main.scss" }}
+    {{ $style := $sass | resources.ToCSS | minify }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Raleway&display=swap" rel="stylesheet">
+</head>

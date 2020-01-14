@@ -1,0 +1,4 @@
+@use 'header';
+@use 'colors';
+body {
+  background-color: gray; }

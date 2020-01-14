@@ -1,0 +1,11 @@
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">{{ .Title }}</a></li>
+            {{ $t := .Site.GetPage "/post" }}
+            {{ range first 10 $t.Data.Pages }}
+            <li><a href={{ .Permalink }}>{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</header>

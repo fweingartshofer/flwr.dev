@@ -1,0 +1,10 @@
+@import 'header';
+@import 'colors';
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: IBM Plex Sans Condensed;
+  margin: 2em auto;
+  width: 80%;
+}
