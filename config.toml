@@ -6,8 +6,27 @@ DefaultContentLanguage = "en"
 
 [params]
   author = "Florian Weingartshofer"
-  description = "flwr.dev 🐧🐧🐧"
+  description = "flwr.dev 🐧🐧"
 
 [languages]
   [languages.en]
     weight = 1
+
+[menu]
+  [[menu.main]]
+    identifier = "flwr"
+    name = "/HOME/FLWR.DEV"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "wiki"
+    name = "Wiki"
+    url = "/wiki/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 30
