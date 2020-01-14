@@ -1,12 +1,10 @@
 <header>
     <nav>
         <ul>
-            {{ range .Site.Menus.main }}
-            {{ if .Name }}
+            {{ range .Site.Menus.sites }}
             <li>
                 <a href="{{ .URL }}">{{ .Name }}</a>
             </li>
-            {{ end }}
             {{ end }}
         </ul>
     </nav>
