@@ -1,6 +1,6 @@
 baseURL = "https://flwr.dev/"
 languageCode = "en-us"
-title = "/HOME/FLWR.DEV"
+title = "FLWR.DEV"
 theme = "nord"
 DefaultContentLanguage = "en"
 
@@ -15,7 +15,7 @@ DefaultContentLanguage = "en"
 [menu]
   [[menu.sites]]
     identifier = "flwr"
-    name = "/HOME/FLWR.DEV"
+    name = "FLWR.DEV"
     url = "/"
     weight = 10
   [[menu.sites]]

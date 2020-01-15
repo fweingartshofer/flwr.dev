@@ -23,6 +23,7 @@ body {
   --bg: var(--nord-6);
   --hover-bg: var(--nord-4);
   --fg: var(--nord-0);
+  transition: background-color 0.2s ease-in;
 }
 
 body.dark {
