@@ -9,4 +9,4 @@ weight: 50
 Hello my name is Florian Weingartshofer.
 
 I am a 
-# Software Engineering Student and Linux Enthusiast.
+# Software Engineering Student and Open Source Enthusiast.

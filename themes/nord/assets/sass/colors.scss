@@ -1,4 +1,4 @@
-:root {
+body {
   /* Polar Night */
   --nord-0: #2e3440;
   --nord-1: #3b4252;
@@ -13,14 +13,20 @@
   --nord-8: #88c0d0;
   --nord-9: #81a1c1;
   --nord-10: #5e81ac;
-  /* Special Elements */
+  /* Aurora */
   --nord-11: #bf616a;
   --nord-12: #d08770;
   --nord-13: #ebcb8b;
   --nord-14: #a3be8c;
   --nord-15: #b48ead;
+  /* Element Colors */
   --bg: var(--nord-6);
-  --fg: var(--nord-0);
-  --fg-alt: var(--nord-0);
   --hover-bg: var(--nord-4);
+  --fg: var(--nord-0);
+}
+
+body.dark {
+  --bg: var(--nord-0);
+  --hover-bg: var(--nord-3);
+  --fg: var(--nord-4);
 }
