@@ -4,6 +4,7 @@ nav {
   ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-family: Raleway;
     padding-left: 0;
@@ -13,6 +14,9 @@ nav {
 
       &:first-child {
         flex-grow: 1;
+        a {
+          text-decoration: none;
+        }
       }
 
       &:not(:first-child) {
