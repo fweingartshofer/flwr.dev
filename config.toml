@@ -24,9 +24,9 @@ DefaultContentLanguage = "en"
     url = "/wiki/"
     weight = 20
   [[menu.sites]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "post"
+    name = "Posts"
+    url = "/post/"
     weight = 30
 
 [markup]
