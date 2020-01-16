@@ -10,3 +10,7 @@ Hello my name is Florian Weingartshofer.
 
 I am a 
 # Software Engineering Student and Open Source Enthusiast.
+
+But most importantly, I love coffee.
+
+![Coffee](img/coffee.svg)

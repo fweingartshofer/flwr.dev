@@ -24,7 +24,7 @@ nav {
           margin-left: 1em;
           padding: 0.5em;
           transition: background-color 0.2s ease-in;
-          border-radius: 0.1em;
+          border-radius: var(--border-radius);
           cursor: pointer;
           &:hover {
             background: var(--hover-bg);

@@ -24,8 +24,11 @@ body {
   --hover-bg: var(--nord-4);
   --fg: var(--nord-0);
   transition: background-color 0.2s ease-in;
+  /* Other Values */
+  --border-radius: 0.2em;
 }
 
+/* Overwrite Values in dark theme */
 body.dark {
   --bg: var(--nord-0);
   --hover-bg: var(--nord-3);

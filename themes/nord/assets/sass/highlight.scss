@@ -1,0 +1,8 @@
+@import 'colors';
+
+div.highlight {
+  pre, div {
+    padding-left: 0.5em;
+    border-radius: var(--border-radius);
+  }
+}
