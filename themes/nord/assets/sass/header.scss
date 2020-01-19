@@ -11,7 +11,7 @@ nav {
 
     li {
       font-weight: bold;
-
+      margin-bottom: 0.5em;
       &:first-child {
         flex-grow: 1;
         a {
@@ -20,8 +20,8 @@ nav {
       }
 
       &:not(:first-child) {
+        margin-right: 1em;
         a {
-          margin-left: 1em;
           padding: 0.5em;
           transition: background-color 0.2s ease-in;
           border-radius: var(--border-radius);
