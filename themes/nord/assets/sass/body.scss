@@ -12,6 +12,13 @@ body {
       width: 10%;
       height: 10%;
     }
+    section {
+      h1{
+        &:first-child{
+          font-weight: bolder;
+        }
+      }
+    }
   }
 }
 
