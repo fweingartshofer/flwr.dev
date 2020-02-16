@@ -8,4 +8,5 @@
     {{ $style := $sass | resources.ToCSS | minify }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|Raleway&display=swap" rel="stylesheet">
+    {{ template "_internal/opengraph.html" . }}
 </head>

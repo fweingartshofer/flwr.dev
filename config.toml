@@ -6,7 +6,9 @@ DefaultContentLanguage = "en"
 
 [params]
   author = "Florian Weingartshofer"
-  description = "flwr.dev 🐧🐧"
+  description = "Personal Website🐧🐧"
+  images = ["site-feature-image.jpg"]
+  title = "flwr.dev"
 
 [languages]
   [languages.en]
