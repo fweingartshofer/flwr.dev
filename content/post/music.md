@@ -1,7 +1,7 @@
 ---
 title: "Music"
 date: 2020-01-16T12:32:52+01:00
-Description: "List of Metal bands"
+Description: "List of some cool bands"
 Tags: []
 Categories: []
 
