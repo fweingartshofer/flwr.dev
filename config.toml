@@ -14,22 +14,6 @@ DefaultContentLanguage = "en"
   [languages.en]
     weight = 1
 
-[menu]
-  [[menu.sites]]
-    identifier = "flwr"
-    name = "FLWR.DEV"
-    url = "/"
-    weight = 10
-  [[menu.sites]]
-    identifier = "wiki"
-    name = "Wiki"
-    url = "/wiki/"
-    weight = 20
-  [[menu.sites]]
-    identifier = "post"
-    name = "Posts"
-    url = "/post/"
-    weight = 30
 
 [markup]
   [markup.highlight]
